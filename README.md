@@ -49,7 +49,6 @@ If you feel like you need more practice in using RStudio, there are lots of free
 	- Lab 2: R programming + assignment 1
 	- Lecture 4 (Mar. 7): Statistical learning 
 
-*** assignment 1
 - Week 3. Regression: Ch3, 7
 	- Lecture 5 (Mar. 13): Linear regression 
 	- Lab 3: 
@@ -59,8 +58,6 @@ If you feel like you need more practice in using RStudio, there are lots of free
 	- Lecture 7 (Mar. 20): Logistic regression 
 	- Lab 4: Regression and classification + assignment 2
 	- Lecture 8 (Mar. 21): Linear discriminant analysis 
-
-*** assignment 2	
 	
 - Week 5. Clustering
 	- Lecture 9 (Mar. 27): K-means clustering 
@@ -68,8 +65,6 @@ If you feel like you need more practice in using RStudio, there are lots of free
 	- Lecture 10 (May. 28): Hierarchical clustering
 
 - Semester break		
-
-*** assignment 3
 		
 - Week 6. Model selection and resampling methods: Ch5
 	- Lecture 11 (Apr. 10): Model assessment and selection 
@@ -81,7 +76,6 @@ If you feel like you need more practice in using RStudio, there are lots of free
 	- Lab 7: Bootstrapping 
 	- Lecture 14 (Apr. 18): Other dimensionality reduction methods 
 
-*** assignment 4
 	
 - Week 8. Advanced regression
 	- Lecture 15 (Apr. 24): Advanced regression 
@@ -103,8 +97,6 @@ If you feel like you need more practice in using RStudio, there are lots of free
 	- Lab 11: Advanced regression 
 	-  Lecture 22 (May 16): Bagging, Random Forests, Boosting 
 	
-*** assignment 5
-
 - Week 12. Project presentation
 	- Lecture 23 (May 22): Project presentation (I/II)
 	- No lab.
