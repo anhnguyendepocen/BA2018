@@ -1,8 +1,6 @@
 
 # Course links
 
-CHANGE THESE LINKS
-
 - [Moodle (for discussion forum, assignments, grades, protected material)](https://moodle.vle.monash.edu/course/view.php?id=42004)
 - [Textbook website](http://www-bcf.usc.edu/~gareth/ISL/index.html)
 - [Online short course videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/)
