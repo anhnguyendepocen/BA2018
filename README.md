@@ -1,15 +1,9 @@
 
-
-# Consultation hours (exam)
-
-- Mojdeh: Tuesday, 24/10/2017, 11am-3pm,  Clayton campus, room W1105
-- Zina: Wednesday, 25/10/2017, 10am-12pm, Clayton campus, room W1105
-- Souhaib: Friday, 27/10/2017, 3pm-5pm, Clayton campus, Menzies Building, Room E765 
-
 # Course links
 
-- [Unit guide](https://unitguidemanager.monash.edu/view?tpCode=S2-01&tpYear=2017&unitCode=ETC3250&ticket=ST-4d63ae42bafcc28c0c993b0b37488417)
-- [Moodle (for discussion forum, assignments, grades, protected material)](http://moodle.vle.monash.edu/course/view.php?id=38497)
+CHANGE THESE LINKS
+
+- [Moodle (for discussion forum, assignments, grades, protected material)](https://moodle.vle.monash.edu/course/view.php?id=42004)
 - [Textbook website](http://www-bcf.usc.edu/~gareth/ISL/index.html)
 - [Online short course videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/)
 
@@ -19,12 +13,10 @@
 	- Tuesday, 2pm-3pm, CL_21 College Walk, Room E2, Eng Theatre (Bldg 32)
 	- Wednesday, 4pm-5pm, CL_21 College Walk, Room E2, Eng Theatre (Bldg 32)
 - Labs: 
-	- (with ?) Tuesday, 3:30pm-5pm, CL_20 Chancellors Walk, Room E151, STAR lab (Bldg 11)
-	- (with ?) Wednesday, 1pm-2:30pm, CL_20 Chancellors Walk, Room E151, STAR lab (Bldg 11)
-	- (with ?) Wednesday, 2:30pm-4pm, CL_20 Chancellors Walk, Room E151, STAR lab (Bldg 11)
-	- (with ?) Thursday, 12:30pm-2pm, CL_20 Chancellors Walk, Room E163, Computer Lab 3 (Building 11)
-	- (with ?) Thursday, 2pm-3:30pm, CL_20 Chancellors Walk, Room E157, Computer Lab 1 (Bldg 11)
-
+	- (with Mojdeh) Tuesday, 3:30pm-5pm, CL_20 Chancellors Walk, Room E151, STAR lab (Bldg 11)
+	- (with Mojdeh) Wednesday, 1pm-2:30pm, CL_20 Chancellors Walk, Room E151, STAR lab (Bldg 11)
+	- (with Zina) Thursday, 12:30pm-2pm, CL_20 Chancellors Walk, Room E163, Computer Lab 3 (Building 11)
+	
 # Consultation hours
 
 - Souhaib: Tuesday, 1pm-2pm, Room E765, Menzies Building, Clayton campus
