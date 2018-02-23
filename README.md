@@ -18,8 +18,10 @@
 # Consultation hours
 
 - Souhaib: Tuesday, 1pm-2pm, Room E765, Menzies Building, Clayton campus
-- ?: Wednesday, ?, Clayton campus, room ?
-- ?: Wednesday, ?, Clayton campus, room ?
+- Mojdeh: Wednesday, 2:30pm-4:00pm, Clayton campus, room ? 
+- Zina: Thursday, 2:15pm-3pm, Clayton campus, room ?
+
+Thursday from 2:15pm - 3pm in room W1105 
 
 # Online R help
 
@@ -38,75 +40,75 @@ If you feel like you need more practice in using RStudio, there are lots of free
 # Content
 
 - Week 1. Introduction: Ch1
-	- Lecture 1 (Feb. 27): Introduction to Business Analytics and R 
-	- Lab 1: Introduction to R 
-	- Lecture 2 (Feb. 28): Statistical learning 
+	- Lecture 1 (Feb. 27): Introduction
+	- Lab 1: R programming 
+	- Lecture 2 (Feb. 28): Visualisation and Data wrangling
 	
 - Week 2. Statistical Learning: Ch2
 	- Lecture 3 (Mar. 6): Statistical learning 
-	- Lab 2: Statistical Learning and R 
+	- Lab 2: R programming + assignment 1
 	- Lecture 4 (Mar. 7): Statistical learning 
 
 *** assignment 1
 - Week 3. Regression: Ch3, 7
 	- Lecture 5 (Mar. 13): Linear regression 
-	- Lab 3: More R programming (exercises without assignment) 
+	- Lab 3: 
 	- Lecture 6 (Mar. 14): Flexible regression 
 	
 - Week 4. Classification: Ch4
 	- Lecture 7 (Mar. 20): Logistic regression 
-	- Lab 4: Regression and K-NN classification 
+	- Lab 4: Regression and classification + assignment 2
 	- Lecture 8 (Mar. 21): Linear discriminant analysis 
 
 *** assignment 2	
-- Week 5. Classification: Ch4, 9 
-	- Lecture 9 (Mar. 27): Comparison of classifiers 
-	- Lab 5: Classification 
-	- Lecture 10 (Mar. 28): Support vector machines 
+	
+- Week 5. Clustering
+	- Lecture 9 (Mar. 27): K-means clustering 
+	- Lab 5: ?
+	- Lecture 10 (May. 28): Hierarchical clustering
 
 - Semester break		
 
 *** assignment 3
 		
 - Week 6. Model selection and resampling methods: Ch5
-	- Lecture 15 (Apr. 10): Model assessment and selection 
-	- Lab 6: Model selection 
-	- Lecture 16 (Apr. 11): Resampling methods 
+	- Lecture 11 (Apr. 10): Model assessment and selection 
+	- Lab 6: Model selection + assignment 3
+	- Lecture 12 (Apr. 11): Resampling methods 
 	
 - Week 7. Dimension reduction: Ch10
-	- Lecture 17 (Apr. 17): Principal Components Analysis  
+	- Lecture 13 (Apr. 17): Principal Components Analysis  
 	- Lab 7: Bootstrapping 
-	- Lecture 18 (Apr. 18): Other dimensionality reduction methods 
+	- Lecture 14 (Apr. 18): Other dimensionality reduction methods 
 
 *** assignment 4
 	
 - Week 8. Advanced regression
-	- Lecture 21 (Apr. 24): Advanced regression 
-	- Lab 8: Principal Components Analysis 
-	- (NO CLASS - ANZAC DAY) Lecture 22 (Apr. 25): Advanced regression
-			
+	- Lecture 15 (Apr. 24): Advanced regression 
+	- Lab 8: Principal Components Analysis + assignment 4
+	- Lecture 16 (Apr. 25): (NO CLASS - ANZAC DAY) 
 	
-- Week 9. Tree-based methods
-	- Lecture 23 (May. 1): Decision trees 
-	- Lab 9: Advanced regression 
-	-  Lecture 24 (May. 2): Bagging, Random Forests, Boosting 
+- Week 9. Advanced regression
+	- Lecture 17 (May 1): Advanced regression 
+	- Lab 9: Principal Components Analysis 
+	- Lecture 18 (May 2): Advanced regression 
+			
+- Week 10. Advanced classification: Ch4, 9 
+	- Lecture 19 (May 8): Comparison of classifiers 
+	- Lab 10: Classification + assignment 5
+	- Lecture 20 (May 9): Support vector machines 
+	
+- Week 11. Tree-based methods
+	- Lecture 21 (May 15): Decision trees 
+	- Lab 11: Advanced regression 
+	-  Lecture 22 (May 16): Bagging, Random Forests, Boosting 
 	
 *** assignment 5
 
-- Week 10. Clustering
-	- Lecture 19 (May. 8): K-means clustering 
-	- Lab 10: Tree-based methods 
-	- Lecture 20 (May. 9): Hierarchical clustering
-	
-- Week 11. Visualisation and Data wrangling
-	- Lecture 11 (May. 15): Review + practice exam 
-	- Lab 11:  Clustering 
-	- Lecture 12 (May. 16): No class. Replaced by a consultation hour in Souhaib's office.
-	
 - Week 12. Project presentation
-	- Lecture 13 (May. 22): Project presentation (I/II)
+	- Lecture 23 (May 22): Project presentation (I/II)
 	- No lab.
-	- Lecture 14 (May. 23): Project presentation (II/II)
+	- Lecture 24 (May 23): Project presentation (II/II)
 	
 
 
