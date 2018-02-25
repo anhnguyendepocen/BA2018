@@ -18,10 +18,8 @@
 # Consultation hours
 
 - Souhaib: Tuesday, 1pm-2pm, Room E765, Menzies Building, Clayton campus
-- Mojdeh: Wednesday, 2:30pm-4:00pm, Clayton campus, room ? 
-- Zina: Thursday, 2:15pm-3pm, Clayton campus, room ?
-
-Thursday from 2:15pm - 3pm in room W1105 
+- Mojdeh: Wednesday, 2:30pm-4:00pm, Room W1105, Menzies Building, Clayton campus
+- Zina: Thursday, 2:15pm-3pm, Room W1105, Menzies Building, Clayton campus
 
 # Online R help
 
