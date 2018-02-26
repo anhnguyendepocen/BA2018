@@ -146,7 +146,7 @@ log(100,base=10)
 * `function`'s can be written to save repeating code again and again    
 
 * Try to understand these commands: `class`, `typeof`, `is.numeric`, `is.vector` and `length` 
-* See Hadley Wickham's online chapters on [data structures](http://adv-r.had.co.nz/Data-structures.html) for more
+* See Hadley Wickham's online chapters on [data structures (http://adv-r.had.co.nz/Data-structures.html)](http://adv-r.had.co.nz/Data-structures.html) for more
 
 ## Operations
 
@@ -317,10 +317,8 @@ B <- A %*% t(A)
 dim(B)
 diag(B)
 eigen(B)
-svd(A)$d^2
-eigen(B)$values
+svd(A)
 ```
-Why are the last two lines the same?
 
 - Visualizing your data is one of the essential elements of data analysis. We are going to primarily use the \verb|ggplot2| package for making data plots. The reason is that it provides elegant graphics in a concise conceptual framework. We will learn more about this later in the semester, but let's get started using the quick plot function \verb|qplot|:
 
@@ -404,7 +402,7 @@ library(readr)
 pisa <- read_csv("https://github.com/bsouhaib/BA2018/raw/master/data/PISA-oz.csv")
 dim(pisa)
 colnames(pisa)
-View(pisa)
+#View(pisa)
 str(pisa)
 head(pisa)
 ```
@@ -495,31 +493,5 @@ ybar <- average(y)
 Try your function on other data.
 
 - Now write a function to compute the mode of some data:
-
-```{r}
-mymode <- function(x) {
-  ux <- unique(x)
-  ux[which.max(tabulate(match(x, ux)))]
-}
-mymode(c(rep("A", 5), rep("B", 3)))
-```
-
-- Modify your function to have an optional label:
-```{r}
-mymode <- function(x, labelit="m") {
-  ux <- unique(x)
-  ux <- ux[which.max(tabulate(match(x, ux)))]
-  names(ux) <- labelit
-  ux
-}
-```
-
-\verb|x| is an input to the function that is essential to provide each time and \verb|label| is an optional addition that takes default value \verb|"m"|, but the user could change it to something else, simply by changing it in the function on the fly.
-\end{itemize}
-
-```{r}
-mymode(x=c(rep("A", 5), rep("B", 3)))
-mymode(x=c(rep("A", 5), rep("B", 3)), labelit="mode")
-```
 
 - Write an R function \verb|stats| to compute the mean, min, max, and the deciles, from a vector of data. You will need to search the R help facilities to find functions to compute each of the statistics. The function should return the statistics as a single vector in numerical order with appropriate names for the elements. Your function should be robust to missing values (i.e., the statistics should be computed on the non-missing values).
