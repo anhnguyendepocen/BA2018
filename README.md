@@ -38,9 +38,9 @@ If you feel like you need more practice in using RStudio, there are lots of free
 # Content
 
 - Week 1. Introduction: Ch1
-	- Lecture 1 (Feb. 27): Introduction
+	- Lecture 1 (Feb. 27): Introduction [[slides]](slides/week1/introduction.pdf)
 	- Lab 1: R programming (I/II) [[lab 1 (pdf)]](labs/lab1/lab1.pdf) [[lab 1 (Rmd)]](labs/lab1/lab1.Rmd)
-	- Lecture 2 (Feb. 28): Visualisation and Data wrangling
+	- Lecture 2 (Feb. 28): Statistical learning 
 	
 - Week 2. Statistical Learning: Ch2
 	- Lecture 3 (Mar. 6): Statistical learning 
