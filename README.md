@@ -60,7 +60,7 @@ If you feel like you need more practice in using RStudio, there are lots of free
 - Week 5. Clustering
 	- Lecture 9 (Mar. 27): K-means clustering 
 	- Lab 5: Classification + assignment 2
-	- Lecture 10 (May. 28): Hierarchical clustering
+	- Lecture 10 (Mar. 28): Hierarchical clustering
 
 - Semester break		
 		
