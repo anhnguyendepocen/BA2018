@@ -1,5 +1,5 @@
 ---
-title: "ETC3250 2018 - Lab 1"
+title: "ETC3250 2018 - Lab 1 and 2"
 author: "Souhaib Ben Taieb"
 date: "27 February 2018"
 output:
