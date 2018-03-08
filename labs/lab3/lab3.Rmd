@@ -1,0 +1,77 @@
+---
+title: "Business Analytics - ETC3250 2018 - Lab 3"
+author: "Souhaib Ben Taieb"
+date: "8 March 2018"
+output: pdf_document
+---
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, warning = FALSE}
+knitr::opts_chunk$set(
+  message = FALSE,
+  warning = FALSE,
+  error = FALSE, 
+  collapse = TRUE,
+  comment = "#",
+  fig.height = 4,
+  fig.width = 8,
+  fig.align = "center",
+  cache = FALSE
+)
+```
+
+### Exercise 1
+
+Do the exercise 1 in chapter 2.4 of ISLR.
+
+### Exercise 2
+
+Do the exercise 5 in chapter 2.4 of ISLR.
+
+### Assignment - Question 1
+
+Do the exercise 2 in chapter 2.4 of ISLR.
+
+### Assignment - Question 2
+
+Do the exercise 6 in chapter 2.4 of ISLR.
+
+### Exercise 3
+
+''Data was gathered from participants in experimental speed dating events from 2002-2004. During the events, the attendees would have a four minute "first date" with every other participant of the opposite sex. At the end of their four minutes, participants were asked if they would like to see their date again. They were also asked to rate their date on six attributes: Attractiveness, Sincerity, Intelligence, Fun, Ambition, and Shared Interests.
+
+The dataset also includes questionnaire data gathered from participants at different points in the process. These fields include: demographics, dating habits, self-perception across key attributes, beliefs on what others find valuable in a mate, and lifestyle information.''
+
+- Read in the Speed Dating data (available at http://github.com/bsouhaib/BA2017/blob/master/data/speed-dating-data.csv)
+- Read (quickly) the associated documentation (available at http://github.com/bsouhaib/BA2017/blob/master/data/speed-dating-documentation.doc)
+
+- Confirm the number of males and females in each wave given in the documentation is correct
+
+- How many people have participated to the speed dating experiment?
+
+- How many dates each peron has participated to? Compute a summary of these numbers.
+
+- Use the function *ggplot* in package *ggplot2* to visualize ten variables you think are important in dating.
+
+### Assignment - Question 3
+
+Write code to answer the following questions:
+
+1. What are the least desirable attributes in a male partner? Does this differ for female partners?
+
+2. How important do people think attractiveness is in potential mate selection vs. its real impact?
+
+3. Are shared interests more important than a shared racial background?
+
+4. Can people accurately predict their own perceived value in the dating market?
+
+5. In terms of getting a second date, is it better to be someone's first speed date of the night or their last?
+
+6. Write two other interesting observations using this data set.
+
+
+## TURN IN 
+
+- Your `.Rmd` file (which should knit without errors and without assuming any packages have been pre-loaded)
+- Your Word (or pdf) file that results from knitting the Rmd.
+- DUE: March 18, 11:55pm (late submissions not allowed), loaded into moodle
+
