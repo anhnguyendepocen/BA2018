@@ -69,25 +69,25 @@ If you feel like you need more practice in using RStudio, there are lots of free
 	- Lab 6: Clustering 
 	- Lecture 12 (Apr. 11): Resampling methods 
 	
-- Week 7. Dimension reduction: Ch10
-	- Lecture 13 (Apr. 17): Principal Components Analysis  
+- Week 7. Advanced regression
+	- Lecture 13 (Apr. 17): Advanced regression 
 	- Lab 7: Model selection + assignment 3
-	- Lecture 14 (Apr. 18): Other dimensionality reduction methods 
+	- Lecture 14 (Apr. 18): Advanced regression 
 
 	
-- Week 8. Advanced regression
-	- Lecture 15 (Apr. 24): Advanced regression 
+- Week 8. Dimension reduction: Ch10
+	- Lecture 15 (Apr. 24): Principal Components Analysis 
 	- Lab 8: Bootstrapping 
 	- Lecture 16 (Apr. 25): (NO CLASS - ANZAC DAY) 
 	
-- Week 9. Advanced regression
-	- Lecture 17 (May 1): Advanced regression 
-	- Lab 9: Principal Components Analysis + assignment 4
-	- Lecture 18 (May 2): Advanced regression 
+- Week 9. Dimension reduction: Ch10
+	- Lecture 17 (May 1): Other dimensionality reduction methods
+	- Lab 9: Advanced regression + assignment 4
+	- Lecture 18 (May 2): ??
 			
 - Week 10. Advanced classification: Ch4, 9 
 	- Lecture 19 (May 8): Comparison of classifiers 
-	- Lab 10: Advanced regression 
+	- Lab 10: Principal Components Analysis 
 	- Lecture 20 (May 9): Support vector machines 
 	
 - Week 11. Tree-based methods
