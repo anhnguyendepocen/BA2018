@@ -47,8 +47,8 @@ If you feel like you need more practice in using RStudio, there are lots of free
 	- Lab 2: R programming (II/II) [[lab 1 and 2 (pdf)]](labs/lab1-2/lab1-2.pdf) [[lab 1 and 2 (Rmd)]](labs/lab1-2/lab1-2.Rmd) [[lab 1 and 2 solutions (pdf)]](labs/lab1-2/lab1-2-solutions.pdf) [[lab 1 and 2 solutions (Rmd)]](labs/lab1-2/lab1-2-solutions.Rmd) 
 	- Lecture 4 (Mar. 7): Statistical learning (see Lecture 2)
 
-- Week 3. Regression: Ch3, 7
-	- Lecture 5 (Mar. 13): Linear regression 
+- Week 3. Regression: Ch3, 7 
+	- Lecture 5 (Mar. 13): Linear regression  [[slides]](slides/week3/linear-regression.pdf)
 	- Lab 3: Statistical learning + assignment 1 [[lab 3 (pdf)]](labs/lab3/lab3.pdf) [[lab 3 (Rmd)]](labs/lab3/lab3.Rmd)
 	- Lecture 6 (Mar. 14): Flexible regression 
 	
