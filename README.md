@@ -50,7 +50,7 @@ If you feel like you need more practice in using RStudio, there are lots of free
 - Week 3. Regression: Ch3, 7 
 	- Lecture 5 (Mar. 13): Linear regression  [[slides]](slides/week3/linear-regression.pdf)
 	- Lab 3: Statistical learning + assignment 1 [[lab 3 (pdf)]](labs/lab3/lab3.pdf) [[lab 3 (Rmd)]](labs/lab3/lab3.Rmd)
-	- Lecture 6 (Mar. 14): Flexible regression 
+	- Lecture 6 (Mar. 14): Flexible regression [[slides]](slides/week3/flexible-regression.pdf)
 	
 - Week 4. Classification: Ch4
 	- Lecture 7 (Mar. 20): Logistic regression 
