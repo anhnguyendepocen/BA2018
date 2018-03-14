@@ -41,8 +41,8 @@ Do the exercise 6 in chapter 2.4 of ISLR.
 
 The dataset also includes questionnaire data gathered from participants at different points in the process. These fields include: demographics, dating habits, self-perception across key attributes, beliefs on what others find valuable in a mate, and lifestyle information.''
 
-- Read in the Speed Dating data (available at http://github.com/bsouhaib/BA2017/blob/master/data/speed-dating-data.csv)
-- Read (quickly) the associated documentation (available at http://github.com/bsouhaib/BA2017/blob/master/data/speed-dating-documentation.doc)
+- Read in the Speed Dating data (available at http://github.com/bsouhaib/BA2018/blob/master/data/speed-dating-data.csv)
+- Read (quickly) the associated documentation (available at http://github.com/bsouhaib/BA2018/blob/master/data/speed-dating-documentation.doc)
 
 - Confirm the number of males and females in each wave given in the documentation is correct
 
