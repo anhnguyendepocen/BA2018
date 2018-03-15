@@ -54,7 +54,7 @@ If you feel like you need more practice in using RStudio, there are lots of free
 	
 - Week 4. Classification: Ch4
 	- Lecture 7 (Mar. 20): Logistic regression 
-	- Lab 4: Regression [[lab 4 (pdf)]](labs/lab4/lab4.pdf) [[lab 3 (Rmd)]](labs/lab4/lab4.Rmd)
+	- Lab 4: Regression [[lab 4 (pdf)]](labs/lab4/lab4.pdf) [[lab 4 (Rmd)]](labs/lab4/lab4.Rmd)
 	- Lecture 8 (Mar. 21): Linear discriminant analysis 
 	
 - Week 5. Clustering
