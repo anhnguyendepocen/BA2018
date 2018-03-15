@@ -63,7 +63,7 @@ test <- Wage[-idx,]
 - Plot a vertical line at your "guessed" value of `df`. How close is it to the optimal?
 - Do you get the same results if you repeat the exercise on different splits of training and test data? Why?
 
-# Exercise 5
+# Exercise 6
   
 - Repeat the previous analysis, but use the full linear model including the other variables in the data set.
 - How much better is the test MSE once you include the other predictor variables?
