@@ -53,7 +53,7 @@ If you feel like you need more practice in using RStudio, there are lots of free
 	- Lecture 6 (Mar. 14): Flexible regression [[slides]](slides/week3/flexible-regression.pdf)
 	
 - Week 4. Classification: Ch4
-	- Lecture 7 (Mar. 20): Logistic regression 
+	- Lecture 7 (Mar. 20): Logistic regression [[slides]](slides/week4/logistic-regression.pdf)
 	- Lab 4: Regression [[lab 4 (pdf)]](labs/lab4/lab4.pdf) [[lab 4 (Rmd)]](labs/lab4/lab4.Rmd)
 	- Lecture 8 (Mar. 21): Linear discriminant analysis 
 	
