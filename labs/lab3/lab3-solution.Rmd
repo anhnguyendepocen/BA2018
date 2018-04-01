@@ -39,7 +39,7 @@ Very flexible methods provide a better fit (with a lower bias), but can overfit 
 
 Less flexible methods typically have a small variance but a high bias.
 
-Which one to choose between a more flexible or a less flexible approach? This depends on the underlying data generating process. If the true underlying function to estimate is linear for example, then a less flexible approach would be more appropriate. However, if the it is highly nonlinear, then a more flexible approach would be needed.
+Which one to choose between a more flexible or a less flexible approach? This depends on the underlying data generating process. If the true underlying function to estimate is linear for example, then a less flexible approach would be more appropriate. However, if it is highly nonlinear, then a more flexible approach would be needed.
 
 
 ### Assignment - Question 1
@@ -77,6 +77,7 @@ library(gridExtra)
 
 DT <-  read_csv(url("https://github.com/bsouhaib/BA2018/raw/master/data/speed-dating-data.csv"))
 
+# We focus on waves 1-5 and 10-21. The other waves are recorded differently
 DT <- DT %>% filter(wave %in% c(1:5, 10: 21)) 
 
 # Recode Variable
@@ -183,7 +184,6 @@ Write code to answer the following questions:
 
 ```{r}
 
-#we select only waves 1-5 and 10-21
 for(g in c(0, 1)){
 	DTg <- filter(DT, gender == g)
 	dataset <- select(DTg, c("attr1_1","sinc1_1","intel1_1", "fun1_1", "amb1_1", "shar1_1")) %>% remove_missing
