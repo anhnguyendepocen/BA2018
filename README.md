@@ -59,7 +59,7 @@ If you feel like you need more practice in using RStudio, there are lots of free
 	
 - Week 5. Clustering
 	- Lecture 9 (Mar. 27): K-means clustering [[slides]](slides/week5/clustering.pdf)
-	- Lab 5: Classification + assignment 2 [[lab 5 (pdf)]](labs/lab5/lab5.pdf) [[lab 5 (Rmd)]](labs/lab5/lab5.Rmd) [[data]](labs/lab5/data_lab5.Rdata)
+	- Lab 5: Classification + assignment 2 [[lab 5 (pdf)]](labs/lab5/lab5.pdf) [[lab 5 (Rmd)]](labs/lab5/lab5.Rmd) [[data]](labs/lab5/data_lab5.Rdata) [[lab 5 solutions (pdf)]](labs/lab5/lab5-solution.pdf) [[lab 5 solutions (Rmd)]](labs/lab5/lab5-solution.Rmd)
 	- Lecture 10 (Mar. 28): Hierarchical clustering
 
 - Semester break		
