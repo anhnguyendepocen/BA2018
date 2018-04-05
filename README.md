@@ -66,7 +66,7 @@ If you feel like you need more practice in using RStudio, there are lots of free
 		
 - Week 6. Model selection and resampling methods: Ch5
 	- Lecture 11 (Apr. 10): Model assessment and selection 
-	- Lab 6: Clustering 
+	- Lab 6: Clustering [[lab 6 (pdf)]](labs/lab6/lab6.pdf) [[lab 6 (Rmd)]](labs/lab6/lab6.Rmd) 
 	- Lecture 12 (Apr. 11): Resampling methods 
 	
 - Week 7. Advanced regression
