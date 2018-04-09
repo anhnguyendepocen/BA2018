@@ -64,10 +64,10 @@ If you feel like you need more practice in using RStudio, there are lots of free
 
 - Semester break		
 		
-- Week 6. Model selection and resampling methods: Ch5
-	- Lecture 11 (Apr. 10): Model assessment and selection 
+- Week 6. Model selection and resampling methods: Ch5 
+	- Lecture 11 (Apr. 10): Model assessment and selection  [[slides]](slides/week6/modelsel.pdf)
 	- Lab 6: Clustering [[lab 6 (pdf)]](labs/lab6/lab6.pdf) [[lab 6 (Rmd)]](labs/lab6/lab6.Rmd) 
-	- Lecture 12 (Apr. 11): Resampling methods 
+	- Lecture 12 (Apr. 11): Resampling methods [[slides]](slides/week6/resampling.pdf)
 	
 - Week 7. Advanced regression
 	- Lecture 13 (Apr. 17): Advanced regression 
