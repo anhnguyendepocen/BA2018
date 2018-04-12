@@ -74,7 +74,7 @@ If you feel like you need more practice in using RStudio, there are lots of free
 	
 - Week 7. Advanced regression
 	- Lecture 13 (Apr. 17): Advanced regression 
-	- Lab 7: Model selection + assignment 3
+	- Lab 7: Model selection + assignment 3 [[lab 7 (pdf)]](labs/lab7/lab7.pdf) [[lab 7 (Rmd)]](labs/lab7/lab7.Rmd) 
 	- Lecture 14 (Apr. 18): Advanced regression 
 
 	
