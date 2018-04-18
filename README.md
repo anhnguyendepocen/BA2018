@@ -72,25 +72,25 @@ If you feel like you need more practice in using RStudio, there are lots of free
 	- Lab 6: Clustering [[lab 6 (pdf)]](labs/lab6/lab6.pdf) [[lab 6 (Rmd)]](labs/lab6/lab6.Rmd) [[lab 6 solutions (pdf)]](labs/lab6/lab6-solution.pdf) [[lab 6 solutions (Rmd)]](labs/lab6/lab6-solution.Rmd)
 	- Lecture 12 (Apr. 11): Resampling methods [[slides]](slides/week6/resampling.pdf)
 	
-- Week 7. Dimension reduction: Ch10, Ch6
+- Week 7. Bootstrapping/Dimension reduction: Ch10, Ch6
 	- Lecture 13 (Apr. 17): Bootstrapping [[slides]](slides/week6/resampling.pdf)
 	- Lab 7: Model selection + assignment 3 [[lab 7 (pdf)]](labs/lab7/lab7.pdf) [[lab 7 (Rmd)]](labs/lab7/lab7.Rmd) 
 	- Lecture 14 (Apr. 18):  Principal Components Analysis [[slides]](slides/week7/dimension-reduction.pdf)
 
 	
-- Week 8. Advanced regression: Ch10, Ch6
+- Week 8. Dimension reduction: Ch10, Ch6
 	- Lecture 15 (Apr. 24): Other dimensionality reduction methods [[slides]](slides/week7/other-dimension-reduction.pdf)  
 	- Lab 8: Bootstrapping 
 	- Lecture 16 (Apr. 25): (NO CLASS - ANZAC DAY) 
 	
 - Week 9. Advanced regression: Ch10, Ch6
 	- Lecture 17 (May 1): Advanced regression  
-	- Lab 9: Principal Components Analysis/Advanced regression + assignment 4  
+	- Lab 9: Principal Components Analysis + assignment 4  
 	- Lecture 18 (May 2): Advanced regression  
 			
 - Week 10. Advanced classification: Ch4, 9 
 	- Lecture 19 (May 8): Comparison of classifiers 
-	- Lab 10: Principal Components Analysis 
+	- Lab 10: Advanced regression  
 	- Lecture 20 (May 9): Support vector machines 
 	
 - Week 11. Tree-based methods
