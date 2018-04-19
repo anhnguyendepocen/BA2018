@@ -80,7 +80,7 @@ If you feel like you need more practice in using RStudio, there are lots of free
 	
 - Week 8. Dimension reduction: Ch10, Ch6
 	- Lecture 15 (Apr. 24): Other dimensionality reduction methods [[slides]](slides/week7/other-dimension-reduction.pdf)  
-	- Lab 8: Bootstrapping 
+	- Lab 8: Bootstrapping [[lab 8 (pdf)]](labs/lab8/lab8.pdf) [[lab 8 (Rmd)]](labs/lab8/lab8.Rmd) 
 	- Lecture 16 (Apr. 25): (NO CLASS - ANZAC DAY) 
 	
 - Week 9. Advanced regression: Ch10, Ch6
