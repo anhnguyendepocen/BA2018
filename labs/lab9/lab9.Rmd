@@ -100,4 +100,4 @@ for (i in inds) {
 
 - Your `.Rmd` file (which should knit without errors and without assuming any packages have been pre-loaded)
 - Your Word (or pdf) file that results from knitting the Rmd.
-- DUE: 6 May 11:55pm (late submissions not allowed), loaded into moodle
+- DUE: 7 May 11:55pm (late submissions not allowed), loaded into moodle
