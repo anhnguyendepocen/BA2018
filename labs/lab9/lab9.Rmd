@@ -32,8 +32,8 @@ Supppose that the columns of $X \in \mathbb{R}^{n \times p}$ have sample mean ze
 
 Suppose that the columns of $X \in \mathbb{R}^{n \times p}$ have been centered (i.e., they have sample mean zero). The total sample variance of $X$ is defined as $\frac1n \text{Trace}(X^{'} X)$.
 
-Let $X = U D V^{'}$ be the singular value decomposition of $X$ where the columns of $U$ and $V$ are orthonormal and
-the matrix $D$ is diagonal with positive real entries, $D = \text{diag}(d_1, . . . d_p)$, where $d_1 \geq d_2 \geq \dots \geq d_p \geq 0$.
+Let $X = U D V^{'}$ be the singular value decomposition of $X$ where the columns of $U \in \mathbb{R}^{n \times p}$ and $V \in \mathbb{R}^{p \times p}$ are orthonormal and
+the matrix $D \in \mathbb{R}^{p \times p}$ is diagonal with positive real entries, $D = \text{diag}(d_1, . . . d_p)$, where $d_1 \geq d_2 \geq \dots \geq d_p \geq 0$.
 
 Prove that the total sample variance of $X$ is given by $\frac1n \sum_{j = 1}^p d_j^2$.
 
