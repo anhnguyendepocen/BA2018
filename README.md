@@ -74,13 +74,14 @@ If you feel like you need more practice in using RStudio, there are lots of free
 	
 - Week 7. Bootstrapping/Dimension reduction: Ch10, Ch6
 	- Lecture 13 (Apr. 17): Bootstrapping [[slides]](slides/week6/resampling.pdf)
-	- Lab 7: Model selection + assignment 3 [[lab 7 (pdf)]](labs/lab7/lab7.pdf) [[lab 7 (Rmd)]](labs/lab7/lab7.Rmd) 
+	- Lab 7: Model selection + assignment 3 [[lab 7 (pdf)]](labs/lab7/lab7.pdf) [[lab 7 (Rmd)]](labs/lab7/lab7.Rmd) [[lab 7 solutions (pdf)]](labs/lab7/lab7-solution.pdf) [[lab 7 solutions (Rmd)]](labs/lab7/lab7-solution.Rmd)
+
 	- Lecture 14 (Apr. 18):  Principal Components Analysis [[slides]](slides/week7/dimension-reduction.pdf)
 
 	
 - Week 8. Dimension reduction: Ch10, Ch6
 	- Lecture 15 (Apr. 24): Other dimensionality reduction methods [[slides]](slides/week7/other-dimension-reduction.pdf)  
-	- Lab 8: Bootstrapping [[lab 8 (pdf)]](labs/lab8/lab8.pdf) [[lab 8 (Rmd)]](labs/lab8/lab8.Rmd) 
+	- Lab 8: Bootstrapping [[lab 8 (pdf)]](labs/lab8/lab8.pdf) [[lab 8 (Rmd)]](labs/lab8/lab8.Rmd) [[lab 8 solutions (pdf)]](labs/lab8/lab8-solution.pdf) [[lab 8 solutions (Rmd)]](labs/lab8/lab8-solution.Rmd)
 	- Lecture 16 (Apr. 25): (NO CLASS - ANZAC DAY) 
 	
 - Week 9. Advanced regression: Ch10, Ch6
