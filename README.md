@@ -85,7 +85,7 @@ If you feel like you need more practice in using RStudio, there are lots of free
 	- Lecture 16 (Apr. 25): (NO CLASS - ANZAC DAY) 
 	
 - Week 9. Advanced regression: Ch10, Ch6
-	- Lecture 17 (May 1): Advanced regression  
+	- Lecture 17 (May 1): Advanced regression  [[slides]](slides/week8/advanced-regression.pdf) 
 	- Lab 9: Principal Components Analysis + assignment 4  [[lab 9 (pdf)]](labs/lab9/lab9.pdf) [[lab 9 (Rmd)]](labs/lab9/lab9.Rmd) 
 	- Lecture 18 (May 2): Advanced regression  
 			
