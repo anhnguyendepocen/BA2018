@@ -89,15 +89,15 @@ If you feel like you need more practice in using RStudio, there are lots of free
 	- Lab 9: Principal Components Analysis + assignment 4  [[lab 9 (pdf)]](labs/lab9/lab9.pdf) [[lab 9 (Rmd)]](labs/lab9/lab9.Rmd) 
 	- Lecture 18 (May 2): Advanced regression  
 			
-- Week 10. Advanced classification: Ch4, 9 
-	- Lecture 19 (May 8): Comparison of classifiers 
+- Week 10.   Tree-based methods
+	- Lecture 19 (May 8): Decision trees 
 	- Lab 10: Advanced regression  
-	- Lecture 20 (May 9): Support vector machines 
+	- Lecture 20 (May 9):  Bagging, Random Forests, Boosting 
 	
-- Week 11. Tree-based methods
-	- Lecture 21 (May 15): Decision trees 
+- Week 11. Advanced classification: Ch4, 9
+	- Lecture 21 (May 15): Support vector machines 
 	- Lab 11: Tree-based methods + assignment 5
-	-  Lecture 22 (May 16): Bagging, Random Forests, Boosting 
+	-  Lecture 22 (May 16): Comparison of classifiers  
 	
 - Week 12. Project presentation
 	- Lecture 23 (May 22): Project presentation (I/II)
