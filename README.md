@@ -90,7 +90,7 @@ If you feel like you need more practice in using RStudio, there are lots of free
 	- Lecture 18 (May 2): Advanced regression  
 			
 - Week 10.   Tree-based methods
-	- Lecture 19 (May 8): Decision trees 
+	- Lecture 19 (May 8): Decision trees [[slides]](slides/week9/treebased-methods.pdf) 
 	- Lab 10: Advanced regression  [[lab 10 (pdf)]](labs/lab10/lab10.pdf) [[lab 10 (Rmd)]](labs/lab10/lab10.Rmd) 
 	- Lecture 20 (May 9):  Bagging, Random Forests, Boosting 
 	
