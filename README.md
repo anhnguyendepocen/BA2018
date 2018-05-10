@@ -96,7 +96,7 @@ If you feel like you need more practice in using RStudio, there are lots of free
 	
 - Week 11. Advanced classification: Ch4, 9
 	- Lecture 21 (May 15): Support vector machines 
-	- Lab 11: Tree-based methods + assignment 5
+	- Lab 11: Tree-based methods + assignment 5 [[lab 11 (pdf)]](labs/lab11/lab11.pdf) [[lab 11 (Rmd)]](labs/lab11/lab11.Rmd)
 	-  Lecture 22 (May 16): Comparison of classifiers  
 	
 - Week 12. Project presentation

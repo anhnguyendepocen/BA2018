@@ -1,0 +1,51 @@
+---
+title: "ETC3250 2018 - Lab 11"
+author: "Souhaib Ben Taieb"
+date: "10 May 2018"
+output: pdf_document
+subtitle: Tree-based methods
+---
+
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, warning = FALSE}
+knitr::opts_chunk$set(
+  message = FALSE,
+  warning = FALSE,
+  error = FALSE, 
+  collapse = TRUE,
+  comment = "#",
+  fig.height = 4,
+  fig.width = 8,
+  fig.align = "center",
+  cache = FALSE
+)
+```
+
+## Exercise
+
+Read and run the code in Section 8.3 of ISLR
+
+## Question 1
+
+ISLR Section 8.4, exercise 4(b). Use functions *plot*, *lines* and *text*.
+
+ISLR Section 8.4, exercise 4(b).
+
+
+Read and run the code in Section 8.3 of ISLR.
+
+## Question 2
+
+ISLR Section 8.4, exercise 9.
+
+
+## Question 3
+
+ISLR Section 8.4, exercise 10.
+
+
+## TURN IN 
+
+- Your `.Rmd` file (which should knit without errors and without assuming any packages have been pre-loaded)
+- Your Word (or pdf) file that results from knitting the Rmd.
+- DUE: 20 May 11:55pm (late submissions not allowed), loaded into moodle
