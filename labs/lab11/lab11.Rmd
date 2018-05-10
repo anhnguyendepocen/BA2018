@@ -2,7 +2,9 @@
 title: "ETC3250 2018 - Lab 11"
 author: "Souhaib Ben Taieb"
 date: "10 May 2018"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
 subtitle: Tree-based methods
 ---
 
@@ -28,11 +30,6 @@ Read and run the code in Section 8.3 of ISLR
 ## Question 1
 
 ISLR Section 8.4, exercise 4(b). Use functions *plot*, *lines* and *text*.
-
-ISLR Section 8.4, exercise 4(b).
-
-
-Read and run the code in Section 8.3 of ISLR.
 
 ## Question 2
 
