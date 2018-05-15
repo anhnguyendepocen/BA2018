@@ -86,12 +86,12 @@ If you feel like you need more practice in using RStudio, there are lots of free
 	
 - Week 9. Advanced regression: Ch10, Ch6
 	- Lecture 17 (May 1): Advanced regression  [[slides]](slides/week8/advanced-regression.pdf) 
-	- Lab 9: Principal Components Analysis + assignment 4  [[lab 9 (pdf)]](labs/lab9/lab9.pdf) [[lab 9 (Rmd)]](labs/lab9/lab9.Rmd) 
+	- Lab 9: Principal Components Analysis + assignment 4  [[lab 9 (pdf)]](labs/lab9/lab9.pdf) [[lab 9 (Rmd)]](labs/lab9/lab9.Rmd) [[lab 9 solutions (pdf)]](labs/lab9/lab9-solution.pdf) [[lab 9 solutions (Rmd)]](labs/lab9/lab9-solution.Rmd)
 	- Lecture 18 (May 2): Advanced regression  
 			
 - Week 10.   Tree-based methods
 	- Lecture 19 (May 8): Decision trees [[slides]](slides/week9/treebased-methods.pdf) 
-	- Lab 10: Advanced regression  [[lab 10 (pdf)]](labs/lab10/lab10.pdf) [[lab 10 (Rmd)]](labs/lab10/lab10.Rmd) 
+	- Lab 10: Advanced regression  [[lab 10 (pdf)]](labs/lab10/lab10.pdf) [[lab 10 (Rmd)]](labs/lab10/lab10.Rmd) [[lab 10 solutions (pdf)]](labs/lab10/lab10-solution.pdf) [[lab 10 solutions (Rmd)]](labs/lab10/lab10-solution.Rmd)
 	- Lecture 20 (May 9):  Bagging, Random Forests, Boosting 
 	
 - Week 11. Advanced classification: Ch4, 9
