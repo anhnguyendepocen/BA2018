@@ -95,9 +95,9 @@ If you feel like you need more practice in using RStudio, there are lots of free
 	- Lecture 20 (May 9):  Bagging, Random Forests, Boosting 
 	
 - Week 11. Advanced classification: Ch4, 9
-	- Lecture 21 (May 15): Support vector machines 
+	- Lecture 21 (May 15): Comparison of classifiers   [[slides]](slides/week10/comparison.pdf) 
 	- Lab 11: Tree-based methods + assignment 5 [[lab 11 (pdf)]](labs/lab11/lab11.pdf) [[lab 11 (Rmd)]](labs/lab11/lab11.Rmd)
-	-  Lecture 22 (May 16): Comparison of classifiers  
+	-  Lecture 22 (May 16): Revision
 	
 - Week 12. Project presentation
 	- Lecture 23 (May 22): Project presentation (I/II)
