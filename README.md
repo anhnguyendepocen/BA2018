@@ -2,8 +2,8 @@
 
 - Souhaib: Thursday, June 7, 10am-12pm, Room E765, Menzies Building, Clayton campus
 - Zina: TBA
-- Mojdeh: Monday, June 11,  2-5pm, Room ??, Menzies Building, Clayton campus
 - Souhaib: Tuesday, June 12, 10am-12pm, Room E765, Menzies Building, Clayton campus
+- Mojdeh: Tuesday, June 12,  2-5pm, Room ??, Menzies Building, Clayton campus
 
 
 # Project
