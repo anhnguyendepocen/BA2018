@@ -1,7 +1,7 @@
 # Exam consultation hours
 
 - Souhaib: Thursday, June 7, 10am-12pm, Room E765, Menzies Building, Clayton campus
-- Zina: TBA
+- Zina: Friday, June 8, 2-5pm, Room W1105, Menzies Building, Clayton campus
 - Souhaib: Tuesday, June 12, 10am-12pm, Room E765, Menzies Building, Clayton campus
 - Mojdeh: Tuesday, June 12,  2-5pm, Room W1105, Menzies Building, Clayton campus
 
