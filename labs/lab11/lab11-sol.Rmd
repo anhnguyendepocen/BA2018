@@ -1,0 +1,200 @@
+---
+title: "ETC3250 2018 - Lab 11"
+author: "Souhaib Ben Taieb"
+date: "10 May 2018"
+output:
+  html_document:
+    df_print: paged
+subtitle: Tree-based methods
+---
+
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, warning = FALSE}
+knitr::opts_chunk$set(
+  message = FALSE,
+  warning = FALSE,
+  error = FALSE, 
+  collapse = TRUE,
+  comment = "#",
+  fig.height = 4,
+  fig.width = 8,
+  fig.align = "center",
+  cache = FALSE
+)
+```
+
+## Exercise
+
+Read and run the code in Section 8.3 of ISLR
+
+## Question 1
+
+ISLR Section 8.4, exercise 4(b). Use functions *plot*, *lines* and *text*.
+
+```{r echo = TRUE, eval=TRUE}
+plot(NA, NA, type = "n", xlim = c(-2, 2), ylim = c(-3, 3), xlab = "X1", ylab = "X2")
+
+# X2 < 1
+lines(x = c(-2, 2), y = c(1, 1))
+# X1 < 1 with X2 < 1
+lines(x = c(1, 1), y = c(-3, 1))
+text(x = (-2 + 1)/2, y = -1, labels = c(-1.8))
+text(x = 1.5, y = -1, labels = c(0.63))
+
+# X2 < 2 with X2 >= 1
+lines(x = c(-2, 2), y = c(2, 2))
+text(x = 0, y = 2.5, labels = c(2.49))
+
+# X1 < 0 with X2<2 and X2>=1
+lines(x = c(0, 0), y = c(1, 2))
+text(x = -1, y = 1.5, labels = c(-1.06))
+text(x = 1, y = 1.5, labels = c(0.21))
+```
+
+## Question 2
+
+ISLR Section 8.4, exercise 9.
+
+
+### (a)
+```{r echo = TRUE, eval=TRUE}
+library(ISLR)
+set.seed(1986)
+
+n <- nrow(OJ)
+id.train <- sample(n, 800)
+OJ.train <- OJ[id.train, ]
+OJ.test  <- OJ[-id.train, ]
+
+```
+
+### (b)
+```{r echo = TRUE, eval=TRUE}
+library(tree)
+oj.tree <- tree(Purchase ~ ., data = OJ.train)
+summary(oj.tree)
+```
+
+### (c)
+
+```{r echo = TRUE, eval=TRUE}
+oj.tree
+```
+
+### (d)
+
+```{r echo = TRUE, eval=TRUE}
+plot(oj.tree)
+text(oj.tree, pretty = 0)
+```
+
+### (e)
+
+```{r echo = TRUE, eval=TRUE}
+oj.pred <- predict(oj.tree, OJ.test, type = "class")
+table(OJ.test$Purchase, oj.pred)
+mean(OJ.test$Purchase != oj.pred)
+```
+
+### (f)
+
+```{r echo = TRUE, eval=TRUE}
+cv.oj <- cv.tree(oj.tree, FUN = prune.tree)
+```
+
+### (g)
+
+```{r echo = TRUE, eval=TRUE}
+plot(cv.oj)
+```
+
+### (h)
+
+```{r echo = TRUE, eval=TRUE}
+print(cv.oj$size[which.min(cv.oj$dev)])
+```
+
+### (i)
+
+```{r echo = TRUE, eval=TRUE}
+oj.pruned <- prune.tree(oj.tree, best = cv.oj$size[which.min(cv.oj$dev)])
+```
+
+### (j)
+
+```{r echo = TRUE, eval=TRUE}
+summary(oj.pruned)
+summary(oj.tree)
+```
+
+### (k)
+
+```{r echo = TRUE, eval=TRUE}
+oj.pred <- predict(oj.tree, OJ.test, type = "class")
+mean(OJ.test$Purchase != oj.pred)
+
+oj.pred_pruned <- predict(oj.pruned, OJ.test, type = "class")
+mean(OJ.test$Purchase != oj.pred_pruned)
+```
+
+## Question 3
+
+ISLR Section 8.4, exercise 10.
+
+```{r echo = TRUE, eval=TRUE}
+DT <- Hitters[-which(is.na(Hitters$Salary)), ]
+DT$Salary = log(DT$Salary)
+
+id.train <- seq(200)
+DT.train <- DT[id.train, ]
+DT.test  <- DT[-id.train, ]
+
+library(gbm)
+set.seed(1986)
+lambdas <- 10^seq(-10, -0.2, by = 0.1)
+length.lambdas <- length(lambdas)
+train.errors <- rep(NA, length.lambdas)
+test.errors <- rep(NA, length.lambdas)
+for (i in seq_along(lambdas)) {
+    boost.hitters = gbm(Salary ~ ., data = DT.train, distribution = "gaussian", 
+        n.trees = 1000, shrinkage = lambdas[i])
+    train.pred <- predict(boost.hitters, DT.train, n.trees = 1000)
+    test.pred <- predict(boost.hitters, DT.test, n.trees = 1000)
+    train.errors[i] <- mean((DT.train$Salary - train.pred)^2)
+    test.errors[i] <- mean((DT.test$Salary - test.pred)^2)
+}
+
+plot(lambdas, train.errors, type = "b", xlab = "Shrinkage", ylab = "Train MSE", pch = 20)
+plot(lambdas, test.errors, type = "b", xlab = "Shrinkage", ylab = "Test MSE",   pch = 20)
+
+
+# 
+min(test.errors)
+
+lm.fit <- lm(Salary ~ ., data = DT.train)
+lm.pred <- predict(lm.fit, DT.test)
+test.MSE.lm <- mean((DT.test$Salary - lm.pred)^2)
+
+library(glmnet)
+x <- model.matrix(Salary ~ ., data = DT.train)
+y <- DT.train$Salary
+x.test <- model.matrix(Salary ~ ., data = DT.test)
+lasso.fit <- glmnet(x, y, alpha = 1)
+lasso.pred <- predict(lasso.fit, s = 0.01, newx = x.test)
+test.MSE.reg <- mean((DT.test$Salary - lasso.pred)^2)
+
+plot(lambdas, test.errors, type = "b", xlab = "Shrinkage", ylab = "Test MSE",   pch = 20)
+abline(h = c(test.MSE.lm, test.MSE.reg))
+
+#
+boost.best <- gbm(Salary ~ ., data = DT.train, distribution = "gaussian", 
+    n.trees = 1000, shrinkage = lambdas[which.min(test.errors)])
+summary(boost.best)
+
+#
+library(randomForest)
+rf.hitters <- randomForest(Salary ~ ., data = DT.train, ntree = 500, mtry = ncol(DT.train) -1)
+rf.pred <- predict(rf.hitters, DT.test)
+mean((DT.test$Salary - rf.pred)^2)
+
+```
