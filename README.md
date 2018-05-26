@@ -104,7 +104,7 @@ If you feel like you need more practice in using RStudio, there are lots of free
 	
 - Week 11. Advanced classification: Ch4, 9
 	- Lecture 21 (May 15): Comparison of classifiers   [[slides]](slides/week10/comparison.pdf) 
-	- Lab 11: Tree-based methods + assignment 5 [[lab 11 (pdf)]](labs/lab11/lab11.pdf) [[lab 11 (Rmd)]](labs/lab11/lab11.Rmd)
+	- Lab 11: Tree-based methods + assignment 5 [[lab 11 (pdf)]](labs/lab11/lab11.pdf) [[lab 11 (Rmd)]](labs/lab11/lab11.Rmd) [[lab 11 solutions (pdf)]](labs/lab11/lab11-solution.pdf) [[lab 11 solutions (Rmd)]](labs/lab11/lab11-solution.Rmd)
 	-  Lecture 22 (May 16): Revision
 	
 - Week 12. Project presentation
